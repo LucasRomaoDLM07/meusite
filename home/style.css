@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.cabecalho{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    background-color: #0000AB;
+    height: 80px;
+    padding-right: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+nav > div{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+nav > input{
+    width: 200px;
+    height: 25px;
+    background-color: #7000FF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: 0.5em center; 
+    background-size: 1.3em;
+    padding-left: 2.5em;
+    background-image: url("../assets/material-symbols_search-rounded.png");  
+}
+
+nav > input::placeholder{
+    color: #DCD2D5;
+}
+
+.lupa{
+    width: 25px;
+}
+
+body{
+    background-image: url("../assets/Group\ 1\ \(4\).png")
+}
