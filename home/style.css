@@ -15,8 +15,8 @@
     background-color: #0000AB;
     height: 80px;
     padding-right: 60px;
-    font-family:'Bungee Inline', cursive;;
-    
+    font-family:'Bungee Inline', cursive;
+    position: relative;
 }
 
 .cabecalho > img{
@@ -62,20 +62,36 @@ nav > input::placeholder{
 }
 
 body{
-    background-image: url("../assets/Group\ 1\ \(4\).png")
+    background-image: url("../assets/Group\ 1\ \(4\).png");
+    height: 100vh;
+    position: relative;
+    
 }
 
 .banner{
-    height: 100%;
-    background-color: #00194E;
+    min-height: 100vh;
     display: flex;
-    align-items: center; 
+    align-items: center;
+    padding: 100px 100px 100px 0;
+    position: relative;
+    justify-content: space-between;
+    gap: 20%;  
 }
 
 .div-banner{
-    min-width: 500px ;
+    min-width: 400px ;
     font-size: 0.8em;
+    background-color: #00194E;
+    padding: 20px;
+    border-radius: 5px;
 
+}
+
+.robo{
+    position: absolute;
+    width: 450px;
+    bottom: 380px;
+    left: 40px;
 }
 
 
@@ -88,9 +104,51 @@ main{
 
 .novidades{
     font-family:'Bungee Inline', cursive;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
+.novidades > .letreiro{
+    background-color: #00194E;
+    height: 60px;
+    padding: 15px;
+}
+
+.novidades > .comprar{
+    background-color: #00194E;
+    height: 40px;
+    padding: 10px;
+}
+
+
+.preco{
+    position: absolute;
+    padding: 10px;
+    background-color: #000;
+    right: 100px;
+    top: 95%;
+
+
+}
+
+.carrinho{
+    background-color: #0E5AC8;
+    padding: 5px;
+    position: absolute;
+    left: 100%;
+    top: 1px;
+}
+
+.carrinho > img{
+    width: 25px;
+}
 .descricao{
     font-family: 'Inter', sans-serif;
     font-weight: 100;
+    max-width: 82%;
+   align-self: center;
+   font-size: 1em;
+   margin: 10px 0;
 }
