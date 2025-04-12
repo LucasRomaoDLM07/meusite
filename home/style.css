@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -65,13 +65,16 @@ body{
     background-image: url("../assets/Group\ 1\ \(4\).png");
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     
 }
 
 .banner{
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     padding: 100px 100px 100px 0;
     position: relative;
     justify-content: space-between;
@@ -89,8 +92,8 @@ body{
 
 .robo{
     position: absolute;
-    width: 450px;
-    bottom: 380px;
+    width: 550px;
+    bottom: 120px;
     left: 40px;
 }
 
@@ -152,3 +155,60 @@ main{
    font-size: 1em;
    margin: 10px 0;
 }
+
+.RECOMENDADOS > .recomendados-e-destaque{
+    display: flex;
+    align-items:center ;
+    background-color: #0000AB;
+    height: 100px;
+    font-family:'Bungee Inline', cursive; 
+    padding-left: 450px;
+    bottom: 50px;
+}
+
+.Jogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    font-family: 'Ubuntu';
+    margin-top: 40px;
+}
+
+.div-jogos{
+    display: flex;
+    background-color: #00194E;
+    font-family: 'Ubuntu';
+    min-width: 40%;
+    
+}
+
+.infosjogos{
+    padding: 30px 15px;
+    width: 50%;
+}
+.homemaranha{
+    width: 50%;
+}
+
+.marvel{
+  
+}
+
+.jadisponivel{
+    
+
+}
+
+.div-jogos1{
+    display: flex;
+    background-color: #00194E;
+}
+
+footer{
+    display: none;
+
+}
+
+
+
