@@ -186,23 +186,61 @@ main{
 .infosjogos{
     padding: 30px 15px;
     width: 50%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
 }
 .homemaranha{
     width: 50%;
 }
 
-.marvel{
+.jadisponivel{
+    font-weight: bold;
   
+
 }
 
-.jadisponivel{
-    
-
+.popular{
+    background-color: #0E5AC8;
+    padding: 5px 10px;
+    width: 80px;
 }
 
 .div-jogos1{
     display: flex;
     background-color: #00194E;
+}
+
+.CATEGORIAS1{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    background-color: #0000AB;
+    height: 80px;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-family:'Bungee Inline', cursive;
+    position: relative;
+    top: 30px;
+}
+
+.ghostpromo{
+   display: flex;
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+
+.promocoes-especiais{
+    display: flex;
+    padding:  20px 40px;
+    width: 400px;
+    background-color: #00194E
+    
+}
+
+.gta5{
+    background-color: #00194E;
+    padding-right: 20px;
 }
 
 footer{
